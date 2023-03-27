@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sanchez", serif;
+  font-weight: bolder;
+}
+
+#bodyBackground {
+  background: #245953;
+}
+
+.header,
+.section-one,
+.section-two,
+.section-three {
+  width: 80%;
+  background: #f9f5eb;
+  border-radius: 1rem;
+  margin: 3rem auto;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+h1 {
+  background: #135772;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.3rem 1rem;
+  letter-spacing: 0.3rem;
+  
+
+}
+
+.avatar {
+  height: 6rem;
+  width: 6rem;
+}
+.avatar img {
+  border-radius: 50%;
+}
+
+.btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  background: #007bff;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.details-container,
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+.details,
+.detail-values,
+.social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.social-media-accounts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.social-media-accounts span,
+.social-media i {
+  border-radius: 1rem;
+  padding: 0.6rem;
+  background: #C7E8CA;
+}
+
+.details span,
+.detail-values span {
+  border-radius: 1rem;
+  padding: 0.6rem;
+  background: #C7E8CA;
+  text-align: center;
+  color: #2c3333;
+  font-weight: bolder;
+}
+
+.checked {
+  color: orange;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.star-ratings {
+  border-radius: 1rem;
+  padding: 0.6rem;
+  background: #C7E8CA;
+  
+}
